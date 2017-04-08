@@ -38,7 +38,7 @@ ob_start('ob_gzhandler');
 
 
 require "classes/mal.class.php";
-$malAPI = new malAPI("DeathfireD");
+$malAPI = new malAPI("USERNAMEHERE");
 $getData = $malAPI->getAnimeList();
 $userInfo = $getData["UserInfo"];
 $animeInfo = $getData["Anime"];
